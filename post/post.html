@@ -1,0 +1,17 @@
+<header class="intro-header" style="background-image: url('wp-content/themes/angularjsdg/img/post-bg.jpg')">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading">
+          <h1>{{post.post.title.rendered}}</h1>
+          <hr class="small">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="container">
+  <div class="row">
+    <p ng-bind-html="post.post.content.rendered"></p>
+  </div>
+</div> <!-- /container -->

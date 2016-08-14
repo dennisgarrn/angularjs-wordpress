@@ -1,0 +1,22 @@
+/*
+Theme Name: AngularJS Theme DG
+Theme URI: http://garrn.ch
+Author: Dennis Garrn
+Version: 1.0
+Description: AngularJS Theme v1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: angularjsdg
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+  padding-top: 50px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
