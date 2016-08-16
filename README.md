@@ -1,6 +1,6 @@
-# angularjs-wordpress
+# Angularjs 1.5 WordPress Theme
 
-This is a WordPress Theme made with AngularJS and webpack. Do not use this Theme in a live environment. Its just for fun.
+This is a WordPress Theme made with AngularJS 1.5, es6(Babel) and Webpack. Do not use this Theme in a live environment. Its just for fun.
 
 To Test this Theme install and active the [rest api](https://wordpress.org/plugins/rest-api/) plugin.
 
