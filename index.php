@@ -23,9 +23,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ng-controller="NavController as navCtrl">
-                <ul class="nav navbar-nav navbar-right" ng-repeat="page in navCtrl.pages track by page.ID">
+                <ul class="nav navbar-nav navbar-right" ng-repeat="page in ::navCtrl.pages track by page.id">
                     <li>
-                        <a href="page/{{page.ID}}">{{page.title}}</a>
+                        <a href="page/{{::page.id}}">{{::page.title.rendered}}</a>
                     </li>
                 </ul>
             </div>
