@@ -1,4 +1,4 @@
-# Angularjs 1.5 WordPress 
+# Angularjs 1.5 WordPress Theme
 
 This is a WordPress Theme made with AngularJS 1.5, es6(Babel) and Webpack. Do not use this Theme in a live environment. Its just for fun.
 
