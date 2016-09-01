@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ng-controller="NavController as navCtrl">
                 <ul class="nav navbar-nav navbar-right" ng-repeat="page in ::navCtrl.pages track by page.id">
                     <li>
-                        <a href="page/{{::page.id}}">{{::page.title.rendered}}</a>
+                        <a ng-href="page/{{::page.id}}">{{::page.title.rendered}}</a>
                     </li>
                 </ul>
             </div>
