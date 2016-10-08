@@ -1,9 +1,6 @@
-var path = require('path');
-var webpack = require('webpack');
-
 var config = {
   entry: {
-    app: ['./app.js']
+    app: ['./src/app.js']
   },
   output: {
     path: __dirname,

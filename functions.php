@@ -1,11 +1,11 @@
-<?php 
+<?php
   show_admin_bar( false );
-  
+
   function load_scripts() {
 
-    wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri() . '/css/bootstrap.min.css' );
+    wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri() . '/src/css/bootstrap.min.css' );
 
-    wp_enqueue_style( 'clean_blog', get_stylesheet_directory_uri() . '/css/clean-blog.min.css' );
+    wp_enqueue_style( 'clean_blog', get_stylesheet_directory_uri() . '/src/css/clean-blog.min.css' );
 
     wp_enqueue_script(
       'load_scripts',
