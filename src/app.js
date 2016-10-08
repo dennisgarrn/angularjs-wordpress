@@ -5,7 +5,7 @@ import sanitize from 'angular-sanitize';
 
 import routing from './app.config';
 import home from './home';
-import nav from './nav';
+import nav from './components/nav';
 import post from './post';
 import page from './page';
 
