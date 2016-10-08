@@ -9,12 +9,14 @@ import nav from './nav';
 import post from './post';
 import page from './page';
 
-angular.module('app', [
-    uirouter,
-    sanitize,
-    home,
-    nav,
-    post,
-    page
-  ])
-  .config(routing);
+export default angular
+    .module('app', [
+        uirouter,
+        sanitize,
+        home,
+        nav,
+        post,
+        page
+    ])
+    .config(routing)
+    .name;
