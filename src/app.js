@@ -5,10 +5,10 @@ import sanitize from 'angular-sanitize';
 
 import routing from './routing.config';
 import compile from './compile.config';
-import home from './home';
-import nav from './components/nav';
-import post from './post';
-import page from './page';
+import home from './home/home.module';
+import nav from './components/nav/nav.module';
+import post from './post/post.module';
+import page from './page/page.module';
 
 export default angular
     .module('app', [
