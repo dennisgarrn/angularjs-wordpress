@@ -2,8 +2,7 @@ import angular from 'angular';
 import uirouter from 'angular-ui-router';
 
 import routing from './home.routes';
-import HomeController from './home.controller';
-import PostService from './home.service';
+import { HomeController } from './home.controller';
 
 export default angular
     .module('app.home', [
@@ -11,7 +10,7 @@ export default angular
     ])
 
     .config(routing)
-    .service('PostService', PostService)
+
     .controller('HomeController', HomeController)
 
     .name;

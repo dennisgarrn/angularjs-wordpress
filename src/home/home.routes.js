@@ -1,5 +1,3 @@
-routes.$inject = ['$stateProvider'];
-
 export default function routes($stateProvider) {
   $stateProvider
     .state('home', {
@@ -9,3 +7,5 @@ export default function routes($stateProvider) {
       controllerAs: 'home'
     });
 }
+
+routes.$inject = ['$stateProvider'];

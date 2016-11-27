@@ -3,7 +3,8 @@ import angular from 'angular';
 import uirouter from 'angular-ui-router';
 import sanitize from 'angular-sanitize';
 
-import routing from './app.config';
+import routing from './routing.config';
+import compile from './compile.config';
 import home from './home';
 import nav from './components/nav';
 import post from './post';
@@ -19,4 +20,5 @@ export default angular
         page
     ])
     .config(routing)
+    .config(compile)
     .name;

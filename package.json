@@ -1,8 +1,8 @@
 {
   "name": "angularjsdg",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "Angular JS Theme",
-  "main": "index.php",
+  "main": "dist/index.php",
   "dependencies": {
     "angular": "^1.5.8",
     "angular-route": "^1.5.8",
@@ -22,8 +22,8 @@
   },
   "scripts": {
     "test": "./node_modules/karma/bin/karma start karma.conf.js",
-    "start": "./node_modules/.bin/webpack --watch --config webpack/dev.js"
+    "start": "webpack --watch"
   },
-  "author": "",
+  "author": "dennis garrn",
   "license": "ISC"
 }

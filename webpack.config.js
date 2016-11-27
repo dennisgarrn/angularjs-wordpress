@@ -1,11 +1,18 @@
-var config = {
-  entry: {
-    app: ['./src/app.js']
-  },
+let webpack = require('webpack');
+
+module.exports = {
+  entry: `${__dirname}/src/app.js`,
   output: {
-    path: __dirname,
-    filename: '[name].bundle.js'
+    path: `${__dirname}/angularjsdg-theme`,
+    filename: 'bundle.js'
   },
+  devtool: 'source-map',
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      minimize: true,
+      sourceMap: true,
+    })
+  ],
   module: {
     loaders: [
       {
@@ -19,8 +26,7 @@ var config = {
       {
         test: /\.html$/,
         loader: 'raw'
-    }]
+      }
+    ]
   }
 }
-
-module.exports = config;

@@ -9,7 +9,7 @@
 
     wp_enqueue_script(
       'load_scripts',
-      get_template_directory_uri() . '/app.bundle.js'
+      get_template_directory_uri() . '/bundle.js'
     );
 
     wp_localize_script(

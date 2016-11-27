@@ -1,6 +1,10 @@
-export default class NavController {
+export class NavController {
   constructor(PageService) {
     PageService.getPages()
-    .then(result => this.pages = result.data);
+      .then(result => this.pages = result.data);
   }
 }
+
+NavController.$inject = [
+    '$PageService',
+];
