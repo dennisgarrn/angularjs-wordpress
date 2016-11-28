@@ -1,10 +1,12 @@
 export class PageService {
   constructor($http) {
     this.$http = $http;
-    this.url = 'wp-json/wp/v2/pages/';
+    this.url = 'wp-json/wp/v2/pages';
   }
-  getPages() {
-    return this.$http.get(this.url);    
+  getPages(urlParams = {}) {
+    return this.$http.get(this.url, {
+      params: urlParams
+    });    
   }
 }
 
