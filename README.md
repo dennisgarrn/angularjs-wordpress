@@ -1,6 +1,6 @@
-# Angularjs 1.5 WordPress Theme (ES6)
+# Angularjs 1.6.1 WordPress Theme (ES6)
 
-This is a WordPress Theme made with AngularJS 1.5, ES6(Babel), yarn and Webpack 2. Do not use this Theme in a live environment. Its just for fun.
+This is a WordPress Theme made with AngularJS 1.6.1, ES6(Babel), yarn and Webpack 2. Do not use this Theme in a live environment. Its just for fun.
 
 example: [Clean Blog](http://www.garrn.ch/sandbox/)
 
