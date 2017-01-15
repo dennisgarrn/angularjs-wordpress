@@ -1,4 +1,4 @@
-let webpack = require('webpack');
+const webpack = require('webpack');
 
 module.exports = {
   entry: `${__dirname}/src/app.js`,
@@ -14,18 +14,18 @@ module.exports = {
     })
   ],
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
-        loader: 'babel',
         exclude: /node_modules/,
-        query: {
-          presets: ['es2015']
-        }
+        use: [{
+          loader: 'babel-loader',
+          options: { presets: ['es2015'] }
+        }],
       },
       {
         test: /\.html$/,
-        loader: 'raw'
+        loader: 'raw-loader'
       }
     ]
   }
